@@ -37,7 +37,7 @@
 			center_y = 0;
 
 			font = 22 + "px "+"Cantarell";;
-			text_field_1 = new createjs.Text("Please start music by click on stage",font, "#515151");
+			text_field_1 = new createjs.Text("Klik dimana aja de buat nyalain musicnya :3",font, "#515151");
 			text_field_1.textBaseline = "alphabetic";
 			text_field_1.regX = text_field_1.getMeasuredWidth()/2;
 			text_field_1.x = center_x;
@@ -46,7 +46,7 @@
 
    			var queue = new createjs.LoadQueue(true);
     		queue.installPlugin(createjs.Sound);
-   			var manifest = [{id:"sound",src:"./sound.mp3"},];
+   			var manifest = [{id:"sound",src:"./Sweet.mp3"},];
     		queue.loadManifest(manifest,true);  
     		queue.addEventListener('fileload',handleLoad);	
 
